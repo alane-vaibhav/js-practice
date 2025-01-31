@@ -27,6 +27,7 @@ let myCon=Number(myscore)
 //which is not able to convert will be NaN
 
 // type of NaN is ----- number
+// type of null ----- {}
 
 
 // boolean of 0--- false
@@ -36,4 +37,30 @@ let myCon=Number(myscore)
 // boolean of empty array--- true
 // boolean of empty object--- true
 
-console.log(typeof undefined);
+//console.log(typeof undefined);
+
+// console.log(1+ 4 +'2' + 3);
+
+// console.log(1 - '4' - '2' + 4 );===== -1
+
+// console.log('2a' > 1);-- false
+
+// console.log(null > 0); ---  false
+// console.log(null == 0); ---  false
+// console.log(null >= 0); --- true
+
+// because it converts (> and ==) to number (null into 0)
+
+// console.log(undefined==0);
+// console.log(undefined<0);
+// console.log(undefined>=0);
+
+// false in all cases for undefined
+
+
+
+
+
+
+
+
