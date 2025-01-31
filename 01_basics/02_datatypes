@@ -1,0 +1,7 @@
+null --- standalone value -- its empty value can be anytype ---- type is Object
+undefined ---- value not assigned just variable decalared --- type is undefined
+string --- " "
+number --- 0 to 2 rest to power 53
+bigInt --- big number greater than number
+boolean --- true/false
+symbol --- unique --- used in react
